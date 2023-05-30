@@ -1,12 +1,14 @@
+body {
+  background-image: url('./gradient.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .App {
   text-align: center;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url('./gradient.png');
-  background-size: fill;
-  background-position: fixed;
-  background-repeat: repeat-y;
 }
 
 .resume {
@@ -59,7 +61,8 @@ button {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
+  padding-left: 10px;
   height: 60px;
   z-index: 2;
   overflow: hidden;
@@ -71,7 +74,7 @@ button {
   justify-content: center;
   align-self: center;
   font-size: 10px;
-  width: 40%;
+  width: 35%;
   padding: 25px;
   margin: 0 auto;
 }
@@ -129,7 +132,7 @@ a:hover {
 .circle-image.open {
   width: 350px;
   height: 350px;
-  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+  box-shadow: rgb(169, 226, 255) 0px 0px 0px 3px, rgb(156, 255, 155) 0px 0px 0px 6px, rgb(255, 241, 170) 0px 0px 0px 9px, rgb(255, 190, 143) 0px 0px 0px 12px, rgb(255, 147, 228) 0px 0px 0px 15px;
 }
 
 .circle-image img {
@@ -157,7 +160,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 5px 5px; /* Adjust the spacing between links */
+  margin: 5px 5px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -169,6 +172,17 @@ a:hover {
   background-color: #555;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+
+button {
+  background-color: rgb(194, 255, 193);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+button:hover {
+color: white;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
 
 @media (max-width: 820px) {
   .navbar {
@@ -205,7 +219,7 @@ a:hover {
   }
 
   .navbar-links div {
-    margin: 10px 0;
+    margin: 5px 10px;
     padding: 0;
   }
 
@@ -214,7 +228,7 @@ a:hover {
   }
 
   .circle-container {
-    margin-top: 15%;
+    margin-top: 20%;
     align-items: center;
     justify-content: center;
   }
