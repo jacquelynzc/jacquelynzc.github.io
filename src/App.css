@@ -240,11 +240,10 @@ color: white;
   }
 
   .social-links {
+    display:flex;
     position: absolute;
-    display: flex;
     justify-content: center;
-    position: absolute;
-    top: 40%;
-    left: calc(-10%);
+    top: 30%;
+    left: calc(-9%);
   }
 }
