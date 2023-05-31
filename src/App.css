@@ -114,7 +114,7 @@ a:hover {
 
 .circle-container {
   position: relative;
-  margin-top: 15%;
+  margin-top: 12%;
 }
 
 .circle-image {
@@ -143,7 +143,7 @@ a:hover {
 
 .social-links {
   position: absolute;
-  top: 40%;
+  top: 34%;
   left: calc(-15%);
   transform: translateX(-50%);
   display: none;
