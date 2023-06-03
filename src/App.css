@@ -4,7 +4,7 @@ body {
 
 .tools-container {
   align-items: center;
-  background-color:white;
+  background-color: white;
   display: flex;
   flex-direction: column;
   margin-top: 8%;
@@ -53,10 +53,9 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
+  position: ab;
   width: 80%;
-  padding-bottom: 5%;
-  z-index: 1;
-
+  margin-bottom: 5%;
 }
 
 .contactForm {
@@ -71,7 +70,9 @@ body {
   height: 25vh;
 }
 
-.contactForm > input, #message, button {
+.contactForm > input,
+#message,
+button {
   margin: 10px;
   padding: 5px;
   border-radius: 3px;
@@ -88,7 +89,7 @@ h3 {
   font-size: 14px;
 }
 .contacth2 {
-  display:flex;
+  display: flex;
   font-size: 1.5rem;
   justify-content: left;
   margin: 0 auto;
@@ -100,17 +101,16 @@ h3 {
   display: flex;
   height: 7vh;
   left: 0;
-  padding-left: 10px;
   position: fixed;
   top: 0;
-  z-index:1;
+  z-index: 1;
 }
 
-.header  {
+.header {
   align-self: center;
   display: flex;
   font-family: Roboto;
-  font-size: .8em;
+  font-size: 0.8em;
   justify-content: center;
   margin: 0 auto;
   padding: 20px;
@@ -121,14 +121,14 @@ h3 {
 
 .footer {
   font-family: Roboto;
+  font-size: 12px;
   bottom: 0;
-  position: absolute;
   background-color: white;
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 2%;
-  margin-top: 2%;
+  padding: 1%;
+  margin-top: 1%;
 }
 
 .hamburger-menu {
@@ -140,7 +140,9 @@ a {
   text-decoration: none;
 }
 
-.navbar, h2, h3 {
+.navbar,
+h2,
+h3 {
   font-family: Raleway;
   font-weight: 400;
 }
@@ -157,7 +159,7 @@ a:hover {
   font-style: italic;
   text-decoration: overline;
 
-  color: rgb(127, 0, 159)
+  color: rgb(127, 0, 159);
 }
 
 .navbar-links div {
@@ -181,7 +183,9 @@ a:hover {
 .circle-image {
   border: 2px #000 groove;
   border-radius: 50%;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
   display: flex;
   height: 400px;
   overflow: hidden;
@@ -191,7 +195,11 @@ a:hover {
 }
 
 .circle-image:hover {
-  box-shadow: rgb(169, 226, 255, 0.2) 0px 0px 0px 3px, rgb(156, 255, 155, 0.2) 0px 0px 0px 6px, rgb(255, 241, 170, 0.2) 0px 0px 0px 9px, rgb(255, 190, 143, 0.2) 0px 0px 0px 12px, rgb(255, 147, 228, 0.2) 0px 0px 0px 15px;
+  box-shadow: rgb(169, 226, 255, 0.2) 0px 0px 0px 3px,
+    rgb(156, 255, 155, 0.2) 0px 0px 0px 6px,
+    rgb(255, 241, 170, 0.2) 0px 0px 0px 9px,
+    rgb(255, 190, 143, 0.2) 0px 0px 0px 12px,
+    rgb(255, 147, 228, 0.2) 0px 0px 0px 15px;
   height: 390px;
   width: 390px;
 }
@@ -203,7 +211,7 @@ a:hover {
 }
 
 .social-links {
-  display:flex;
+  display: flex;
   justify-content: center;
   left: 50%;
   margin: 0 auto;
@@ -230,11 +238,12 @@ a:hover {
 button {
   align-items: center;
   background-color: #929292;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   color: white;
   display: flex;
-  font-family: 'Arial';
-  font-size:100%;
+  font-family: "Arial";
+  font-size: 100%;
   justify-content: center;
   margin: 0 auto;
   margin-top: 10px;
@@ -242,10 +251,12 @@ button {
 }
 
 .social-links a:hover {
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px outset;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px outset;
 }
 
-.social-links a:hover, button:hover {
+.social-links a:hover,
+button:hover {
   background-color: #929292;
   color: white;
 }
@@ -264,7 +275,11 @@ button {
 }
 
 button:hover {
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 /* button {
@@ -278,17 +293,16 @@ color: white;
 } */
 
 @media (max-width: 768px) {
-
-.navbar {
+  .navbar {
     display: flex;
     height: auto;
     justify-content: flex-start;
     padding: 12px;
     width: 100%;
-  } 
+  }
 
   .header {
-    font-size: .66rem;
+    font-size: 0.66rem;
     margin: 0 auto;
     padding: 70px;
     width: 50%;
@@ -332,7 +346,6 @@ color: white;
     font-size: 1.19rem;
     justify-content: center;
     margin: 0 auto;
-
   }
 
   .contacth2 {
@@ -346,21 +359,16 @@ color: white;
   }
 
   .social-links {
-    display:flex;
+    display: flex;
     justify-content: center;
     padding-bottom: 25px;
     position: absolute;
     top: 100%;
   }
 
-
   .qr {
     display: none;
   }
-
-  /* .contacth2 {
-    margin-top: 12%;
-  } */
 
   .social-links a:not(:last-child) {
     margin-right: 10px;
@@ -369,5 +377,9 @@ color: white;
   .circle-image:hover {
     height: 270px;
     width: 270px;
+  }
+
+  .footer {
+    position: absolute;
   }
 }
