@@ -49,8 +49,12 @@ const Home = () => {
           <h1>Welcome! <br />I'm Jacquelyn Caputo, <br />a full-stack developer</h1>
         </div>
       </div>
+      <div>
       <Tools />
+      <div className="footer">
       <Footer />
+      </div>
+      </div>
     </>
   );
 };

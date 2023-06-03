@@ -48,7 +48,7 @@ const ContactForm = () => {
           Submit
         </button>
       </div>
-      <div className='footer'>
+      <div className='footerCon'>
       <Footer />
       </div>
     </>

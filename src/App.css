@@ -1,5 +1,6 @@
 body {
   background-color: #f0eaff;
+  height: 100%;
 }
 
 .tools-container {
@@ -8,7 +9,8 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 8%;
-  padding: 5% 0 5% 0;
+  padding: 8% 0 5% 0;
+  border-top: 1.25px solid #000;
 }
 
 .progress-container {
@@ -29,7 +31,7 @@ body {
 .App {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
 }
 
@@ -40,7 +42,8 @@ body {
   margin: 0 auto;
   height: 100%;
   width: 100%;
-  margin-top: 30px;
+  max-width: 100%;
+  margin-top: 28px;
   position: fixed;
 }
 
@@ -99,11 +102,11 @@ h3 {
   align-items: center;
   background-color: #c8b2ffad;
   display: flex;
-  height: 7vh;
   left: 0;
   position: fixed;
   top: 0;
   z-index: 1;
+  padding: 15px;
 }
 
 .header {
@@ -113,23 +116,32 @@ h3 {
   font-size: 0.8em;
   justify-content: center;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
   padding-top: 5%;
+  margin-top:7%;
   text-justify: distribute;
   width: 50%;
 }
 
+
 .footer {
+  width: 100%;
+  border-top: 1px solid #000000;
   font-family: Roboto;
   font-size: 12px;
+  padding: 10px;
+}
+.footerCon {
   bottom: 0;
   background-color: white;
-  display: flex;
-  justify-content: center;
   width: 100%;
-  padding: 1%;
-  margin-top: 1%;
+  border-top: 1px solid #000000;
+  font-family: Roboto;
+  font-size: 12px;
+  padding: 10px;
+  margin-top: 2%;
 }
+
 
 .hamburger-menu {
   display: none;
@@ -152,14 +164,14 @@ h3 {
   width: 100vw;
 }
 .navbar-links a {
-  color: rgb(82, 0, 159);
+  color: rgb(0, 0, 0);
 }
 
 a:hover {
   font-style: italic;
   text-decoration: overline;
 
-  color: rgb(127, 0, 159);
+  color: rgb(255, 255, 255);
 }
 
 .navbar-links div {
@@ -176,7 +188,7 @@ a:hover {
 }
 
 .circle-container {
-  margin-top: 6%;
+  margin-top: 10%;
   position: relative;
 }
 
@@ -282,22 +294,10 @@ button:hover {
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-/* button {
-  background-color: rgb(194, 255, 193);
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-}
-
-button:hover {
-box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-color: white;
-} */
-
 @media (max-width: 768px) {
   .navbar {
     display: flex;
     height: auto;
-    justify-content: flex-start;
-    padding: 12px;
     width: 100%;
   }
 
@@ -317,20 +317,13 @@ color: white;
 
   .navbar-links {
     display: none;
-    margin-top: 10px;
-
-    /*  */
   }
 
   .navbar-links.open {
     display: flex;
     flex-direction: row;
-    justify-content: left;
   }
 
-  .navbar-links div {
-    margin: 0 10px;
-  }
 
   .navbar-links div:first-child {
     margin-top: 0;
@@ -339,13 +332,16 @@ color: white;
   .circle-container {
     align-items: center;
     justify-content: center;
-    margin-top: 20%;
   }
   h2 {
     display: flex;
     font-size: 1.19rem;
     justify-content: center;
     margin: 0 auto;
+  }
+
+  h1 {
+    margin-top: 9%;
   }
 
   .contacth2 {
@@ -380,6 +376,12 @@ color: white;
   }
 
   .footer {
+    position: absolute;
+  }
+
+  .footerCon {
+    background-color: white;
+    border-top: 2px solid #000;
     position: absolute;
   }
 }

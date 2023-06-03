@@ -3,16 +3,16 @@ import { Line } from 'rc-progress';
 
 const Tools = () => {
   const languages = [
-    { name: 'JavaScript', progress: 84 },
-    { name: 'Python', progress: 88 },
-    { name: 'CSS', progress: 99 },
-    { name: 'ReactJS', progress: 90 },
-    { name: 'NextJS', progress: 85 },
-    { name: 'MongoDB/NoSQL', progress: 100 },
-    { name: 'PostgreSQL', progress: 100 },
-    { name: 'Github', progress: 92 },
-    { name: 'Django', progress: 82 },
-    { name: 'Express', progress: 84 },
+    { name: 'JavaScript', progress: 65 },
+    { name: 'Python', progress: 65 },
+    { name: 'CSS', progress: 95 },
+    { name: 'ReactJS', progress: 80 },
+    { name: 'NextJS', progress: 65 },
+    { name: 'MongoDB/NoSQL', progress: 90 },
+    { name: 'PostgreSQL', progress: 84 },
+    { name: 'Github', progress: 84 },
+    { name: 'Django', progress: 79 },
+    { name: 'Express', progress: 69 },
     { name: 'Figma', progress: 100 },
     { name: 'HTML', progress: 100 },
   ];
