@@ -35,15 +35,13 @@ body {
 
 .resume {
   background: white;
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
   height: 100%;
-  margin-top: 2.5%;
-}
-
-.resume > img {
-  height: auto;
-  overflow-y: hidden;
-  width: 90%;
+  width: 100%;
+  margin-top: 30px;
+  position: fixed;
 }
 
 .qrcode {
