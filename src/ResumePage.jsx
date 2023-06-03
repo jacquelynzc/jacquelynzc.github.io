@@ -9,7 +9,6 @@ const ResumePage = () => {
       <Navbar />
       <div className="resume">
         <PDFViewer />
-        <Footer />
       </div>
     </>
   );
