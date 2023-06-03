@@ -230,6 +230,7 @@ a:hover {
   padding: 35px;
   position: absolute;
   transform: translateX(-50%);
+  margin-top:5%;
 }
 
 .social-links a:not(:last-child) {
