@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { TransitionGroup, CSSTransition } from "react-transition-group";
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import Navbar from "./Navbar.jsx";
 import profileImage from "./profilee.png";
 import "./App.css";
@@ -8,33 +7,6 @@ import Tools from './Tools.jsx'
 import Footer from "./Footer.jsx";
 
 const Home = () => {
-  // const [isDiamondOpen, setIsDiamondOpen] = useState(false);
-  // const [isMouseOverLinks, setIsMouseOverLinks] = useState(false);
-
-  // const handleDiamondHover = () => {
-  //   setIsDiamondOpen(true);
-  // };
-
-  // const handleDiamondLeave = () => {
-  //   setIsMouseOverLinks(false);
-  //   setTimeout(() => {
-  //     setIsDiamondOpen(false);
-  //   }, 2000); // Timeout delay in milliseconds
-  // };
-
-  // useEffect(() => {
-  //   let timeoutId;
-
-  //   if (isMouseOverLinks) {
-  //     clearTimeout(timeoutId);
-  //   } else if (isDiamondOpen) {
-  //     timeoutId = setTimeout(() => {
-  //       setIsDiamondOpen(false);
-  //     }, 2000); // Timeout delay in milliseconds
-  //   }
-
-  //   return () => clearTimeout(timeoutId);
-  // }, [isMouseOverLinks, isDiamondOpen]);
 
   return (
     <>
@@ -62,6 +34,12 @@ const Home = () => {
                 >
                   <FaLinkedin />
                 </a>
+                <a href="mailto:JaxquelynCaputo@gmail.com">
+        <FaEnvelope /> 
+      </a>
+      <a href="tel:+18582760791">
+        <FaPhone />
+      </a>
               </div>
           </div>
         </div>

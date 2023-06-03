@@ -103,8 +103,10 @@ h3 {
   justify-content: center;
   align-self: center;
   font-size: .8em;
-  width: 30%;
+  width: 50%;
+  text-justify: distribute;
   padding: 20px;
+  padding-top: 5%;
   margin: 0 auto;
 }
 
@@ -155,7 +157,7 @@ a:hover {
 
 .circle-container {
   position: relative;
-  margin-top: 12%;
+  margin-top: 6%;
 }
 
 .circle-image {
@@ -194,7 +196,7 @@ a:hover {
 }
 
 .social-links a:not(:last-child) {
-  margin-right: 330px;
+  margin-right: 75px;
 }
 
 .social-links a {
