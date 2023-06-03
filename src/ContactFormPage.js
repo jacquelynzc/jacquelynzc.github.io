@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar.jsx';
 import './App.css';
+import contactQR from './jcQR.png'
 
 const ContactForm = () => {
   const [name, setName] = useState('');
@@ -18,8 +19,11 @@ const ContactForm = () => {
   return (
     <>
       <Navbar />
+      <div className='qrcode'>
+        <img className='qr' src={contactQR} alt='QR code to save contact'></img>
+        </div>
+        <h3 className="contacth2">Inbox Me</h3>
       <div className="contact">
-        <h2>Contact Me</h2>
         <div className="contactForm">
           <label htmlFor="name"></label>
           <input
@@ -33,7 +37,7 @@ const ContactForm = () => {
           <label htmlFor="message"></label>
           <textarea
             id="message"
-            placeholder="Write your message here :)"
+            placeholder="Write your message here"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             required
@@ -42,6 +46,7 @@ const ContactForm = () => {
         <button type="button" onClick={handleEmailSubmission}>
           Submit
         </button>
+    
       </div>
     </>
   );

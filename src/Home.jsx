@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaAddressCard } from "react-icons/fa";
 import Navbar from "./Navbar.jsx";
 import profileImage from "./profilee.png";
 import "./App.css";
 import Tools from './Tools.jsx'
 import Footer from "./Footer.jsx";
+import Contact from './JacquelynCaputo.vcf'
 
 const Home = () => {
 
@@ -37,8 +38,8 @@ const Home = () => {
                 <a href="mailto:JaxquelynCaputo@gmail.com">
         <FaEnvelope /> 
       </a>
-      <a href="tel:+18582760791">
-        <FaPhone />
+      <a href={Contact}>
+        <FaAddressCard />
       </a>
               </div>
           </div>

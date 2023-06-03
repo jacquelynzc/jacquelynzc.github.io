@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume1 from './Resume1.png'
+import Resume from './Resume1.png'
 import Navbar from './Navbar.jsx'
 
 const ResumePage = () => {
@@ -7,7 +7,7 @@ const ResumePage = () => {
       <>
       <Navbar />
       <div className="resume">
-        <img src={Resume1}></img>
+        <img src={Resume} alt='Resume'></img>
       </div>
       </>
     );
