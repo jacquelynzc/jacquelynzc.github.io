@@ -10,6 +10,7 @@
     "express": "^4.18.2",
     "gh-pages": "^5.0.0",
     "nodemon": "^2.0.22",
+    "rc-progress": "^3.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hamburger-menu": "^1.2.1",
