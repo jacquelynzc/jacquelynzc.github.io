@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope, FaAddressCard } from "react-icons/fa";
 import Navbar from "./Navbar.jsx";
 import profileImage from "./profilee.png";
