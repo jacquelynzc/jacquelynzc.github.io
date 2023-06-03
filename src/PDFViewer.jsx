@@ -3,7 +3,7 @@ import resume from './resume.pdf'
 
 const PDFViewer = () => {
   return (
-      <embed className='resume' src={resume} title="Resume" />
+      <iframe className='resume' src={resume} title="Resume" />
   );
 };
 
