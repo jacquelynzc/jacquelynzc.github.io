@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navbar from './Navbar.jsx';
 import './App.css';
 import contactQR from './jcQR.png'
+import Footer from './Footer.jsx'
 
 const ContactForm = () => {
   const [name, setName] = useState('');
@@ -46,7 +47,9 @@ const ContactForm = () => {
         <button type="button" onClick={handleEmailSubmission}>
           Submit
         </button>
-    
+      </div>
+      <div className='footer'>
+      <Footer />
       </div>
     </>
   );

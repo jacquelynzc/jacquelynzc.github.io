@@ -1,17 +1,18 @@
 import React from 'react';
-import Resume from './Resume1.png'
-import Navbar from './Navbar.jsx'
+import Navbar from './Navbar';
+import PDFViewer from './PDFViewer';
+import Footer from './Footer.jsx'
 
 const ResumePage = () => {
-    return (
-      <>
+  return (
+    <>
       <Navbar />
       <div className="resume">
-        <img src={Resume} alt='Resume'></img>
+        <PDFViewer />
+        <Footer />
       </div>
-      </>
-    );
-  };
-  
-  export default ResumePage;
-  
+    </>
+  );
+};
+
+export default ResumePage;

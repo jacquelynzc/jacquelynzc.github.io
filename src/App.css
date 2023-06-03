@@ -55,6 +55,7 @@ body {
   margin: 0 auto;
   width: 80%;
   padding-bottom: 5%;
+  z-index: 1;
 
 }
 
@@ -73,6 +74,8 @@ body {
 .contactForm > input, #message, button {
   margin: 10px;
   padding: 5px;
+  border-radius: 3px;
+  font-family: Roboto;
 }
 
 h2 {
@@ -118,6 +121,14 @@ h3 {
 
 .footer {
   font-family: Roboto;
+  bottom: 0;
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 2%;
+  margin-top: 2%;
 }
 
 .hamburger-menu {
@@ -219,7 +230,6 @@ a:hover {
 button {
   align-items: center;
   background-color: #929292;
-  border-radius: 5%;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   color: white;
   display: flex;
@@ -242,11 +252,11 @@ button {
 
 .qr {
   display: flex;
-  height: 250px;
   justify-content: center;
   margin: 0 auto;
   margin-top: 10%;
-  width: 250px;
+  width: 220px;
+  height: 250px;
 }
 
 .contacth2 {
@@ -343,9 +353,6 @@ color: white;
     top: 100%;
   }
 
-  .footer {
-    padding: 5%;
-  }
 
   .qr {
     display: none;
