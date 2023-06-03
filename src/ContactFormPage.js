@@ -23,7 +23,7 @@ const ContactForm = () => {
       <div className='qrcode'>
         <img className='qr' src={contactQR} alt='QR code to save contact'></img>
         </div>
-        <h3 className="contacth2">Inbox Me</h3>
+        <h3 className="contacth2">Mail Dispatcher</h3>
       <div className="contact">
         <div className="contactForm">
           <label htmlFor="name"></label>
