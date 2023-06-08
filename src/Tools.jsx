@@ -1,50 +1,36 @@
-import React from 'react';
-import { Line } from 'rc-progress';
+import React from "react";
+import DevIcon from "devicon-react-svg";
 
-const Tools = () => {
-  const languages = [
-    { name: 'CSS', progress: 95 },
-    { name: 'Django', progress: 79 },
-    { name: 'Express', progress: 69 },
-    { name: 'Flask', progress: 55 },
-    { name: 'Git', progress: 84 },
-    { name: 'HTML', progress: 100 },
-    { name: 'JavaScript', progress: 70 },
-    { name: 'MongoDB/NoSQL', progress: 90 },
-    { name: 'Next.js', progress: 65 },    { name: 'Photoshop', progress: 85 },
-    { name: 'PostgreSQL', progress: 84 },
-    { name: 'Python', progress: 65 },
-    { name: 'React.js', progress: 80 },
-    { name: 'Ruby', progress: 55 },
-  ];
+const Tools = (props) => {
+  const devIconStyle = {
+    fill: "#c8b2ff",
+    width: "150px",
+  };
 
   return (
     <div className="tools-container">
-      <h2>Proficiency in Utilizing Tools &<br />Fluency in Programming Languages</h2>
+      <h2>
+        Programming Languages & Tools
+      </h2>
       <div className="progress-container">
-        <div className="column">
-          {languages.slice(0, 6).map((language) => (
-            <div className="progress-item" key={language.name}>
-              <h3>{language.name}</h3>
-              <Line
-                percent={language.progress}
-                strokeWidth={7}
-                strokeColor="#c8b2ff"
-              />
-            </div>
-          ))}
-        </div>
-        <div className="column">
-          {languages.slice(8).map((language) => (
-            <div className="progress-item" key={language.name}>
-              <h3>{language.name}</h3>
-              <Line
-                percent={language.progress}
-                strokeWidth={7}
-                strokeColor="#c8b2ff"
-              />
-            </div>
-          ))}
+        <div>
+          <DevIcon icon="javascript" style={devIconStyle} viewBox="0 0 32 32" />
+          <DevIcon icon="react" style={devIconStyle} viewBox="0 0 32 32" />
+          <DevIcon icon="python" style={devIconStyle} viewBox="0 0 32 32" />
+          <DevIcon icon="git" style={devIconStyle} viewBox="0 0 32 32" />
+          <DevIcon icon="postgresql" style={devIconStyle} viewBox="0 0 32 32" />
+          <DevIcon icon="css3" style={devIconStyle} viewBox="0 0 32 32" />
+          <DevIcon icon="html5" style={devIconStyle} viewBox="0 0 32 32" />
+          <DevIcon icon="django" style={devIconStyle} viewBox="0 0 32 32" />
+  
+          <DevIcon icon="vim" style={devIconStyle} viewBox="0 0 32 32" />
+          <DevIcon icon="npm" style={devIconStyle} viewBox="0 0 32 32" />
+          <DevIcon icon="mongodb" style={devIconStyle} viewBox="0 0 32 32" />
+          <DevIcon icon="heroku" style={devIconStyle} viewBox="0 0 32 32" />
+          <DevIcon icon="ruby" style={devIconStyle} viewBox="0 0 32 32" />
+          <DevIcon icon="nodejs" style={devIconStyle} viewBox="0 0 32 32" />
+          <DevIcon icon="wordpress" style={devIconStyle} viewBox="0 0 32 32" />
+          <DevIcon icon="photoshop" style={devIconStyle} viewBox="0 0 32 32" />
         </div>
       </div>
     </div>

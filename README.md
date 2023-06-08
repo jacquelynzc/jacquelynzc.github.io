@@ -20,35 +20,19 @@ I am a passionate web developer with experience in front-end and back-end develo
 Here are a couple of the projects I have worked on:
 
 
-- #### [Digigram](digi-be.netlify.app)
-  ##### *Description*: With a group of nine developers, designed a Digimon themed Instagram clone. My role is to lead the front end team, and was in charge of design. I also created the settings page. 
-  ##### **Work in progress** 
 
 - #### [Whack-a-Mole](jacquelynzc.github.io/whackamole)
   #####  *Description*: Recreated my own version of my favorite classic arcade game 
+
+- #### [Digigram](digi-be.netlify.app)
+  ##### *Description*: With a group of nine developers, designed a Digimon themed Instagram clone. My role is to lead the front end team, and was in charge of design. I also created the settings page. 
+  ##### **Work in progress** 
+  
 ## Skills
 I have experience with the following programming languages and tools:
 
 ```
 CSS/HTML, Django, Express.js, Flask, Git/Github, JavaScript, MongoDB/NoSQL, Next.js, Photoshop, PostgresSQL, Python, React.js, Ruby
-```
-  
-Here is a visual representation of my proficiency in these skills:
-```
-- CSS: 95%
-- Django: 80%
-- Express.js: 70%
-- Flask: 65%
-- Git: 85%
-- HTML: 100%
-- JavaScript: 70%
-- MongoDB/NoSQL: 90%
-- Next.js: 65%
-- Photoshop: 85%
-- PostgresSQL: 85%
-- Python: 65%
-- React.js: 80%
-- Ruby: 55%
 ```
 
 ## Contact
