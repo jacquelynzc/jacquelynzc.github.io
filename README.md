@@ -2,7 +2,6 @@
 
 Welcome to my portfolio! This is where you can get to know a little more about me.
 
-##### *Page created using React*
 
 ## Table of Contents
   - [About Me](#about-me)
@@ -13,7 +12,7 @@ Welcome to my portfolio! This is where you can get to know a little more about m
 ## About Me
 I am a passionate web developer with experience in front-end and back-end development. I enjoy creating intuitive and visually appealing websites that provide great user experience. In addition to coding, I also have a strong understanding of software engineering principles and best practices.
 
-Connect with me on social media:
+**Connect with me on social media:**
 - [LinkedIn](https://www.linkedin.com/in/jacquelyncaputo)
 - [GitHub](https://github.com/jacquelynzc)
 
@@ -30,32 +29,27 @@ Here are a couple of the projects I have worked on:
 ## Skills
 I have experience with the following programming languages and tools:
 
-- HTML/CSS
-- JavaScript
-- Python
-- Django
-- Express.js
-- PostgreSQL
-- Git
-- MongoDB/NoSQL
-- React.js
-- Next.js
-- Figma
-
+```
+CSS/HTML, Django, Express.js, Flask, Git/Github, JavaScript, MongoDB/NoSQL, Next.js, Photoshop, PostgresSQL, Python, React.js, Ruby
+```
+  
 Here is a visual representation of my proficiency in these skills:
-
-- HTML: 100%
+```
 - CSS: 95%
-- JavaScript: 65%
+- Django: 80%
+- Express.js: 70%
+- Flask: 65%
+- Git: 85%
+- HTML: 100%
+- JavaScript: 70%
+- MongoDB/NoSQL: 90%
+- Next.js: 65%
+- Photoshop: 85%
+- PostgresSQL: 85%
 - Python: 65%
 - React.js: 80%
-- Express.js: 70%
-- Next.js: 65%
-- Django: 80%
-- PostgresSQL: 85%
-- Git: 85%
-- MongoDB/NoSQL: 90%
-- Figma: 99%
+- Ruby: 55%
+```
 
 ## Contact
 Feel free to reach out to me via email at [JaxquelynCaputo@gmail.com](mailto:JaxquelynCaputo@gmail.com) or by filling out the contact form on my [portfolio website](https://www.yourportfolio.com/contact).
@@ -63,3 +57,7 @@ Feel free to reach out to me via email at [JaxquelynCaputo@gmail.com](mailto:Jax
 You can also download my resume [here](./src/Resume.pdf).
 
 ***Thank you for stopping by!***
+
+---
+
+###### *Created with React*
