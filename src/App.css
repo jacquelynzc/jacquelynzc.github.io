@@ -264,17 +264,6 @@ button {
   width: 60%;
 }
 
-.social-links a:hover {
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px outset;
-}
-
-.social-links a:hover,
-button:hover {
-  background-color: #929292;
-  color: white;
-}
-
 .qr {
   display: flex;
   justify-content: center;
@@ -288,12 +277,14 @@ button:hover {
   font-size: 1.3em;
 }
 
-button:hover {
+button:hover, .social-links a:hover {
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: #929292;
+    color: white;
 }
 
 @media (max-width: 768px) {
