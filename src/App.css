@@ -97,6 +97,8 @@ h3 {
   top: 0;
   z-index: 1;
 }
+
+
 .header {
   align-self: center;
   display: flex;
@@ -176,14 +178,18 @@ h3 {
   display: flex;
   width: 100vw;
 }
-.navbar-links a {
+.navbar-link {
   color: rgb(0, 0, 0);
 }
-a:hover {
-  color: rgb(255, 255, 255);
-  font-style: italic;
-  text-decoration: overline;
+
+.navbar-link:hover {
+  letter-spacing:3px;
 }
+
+.navbar-link:active {
+  letter-spacing: 5px;
+}
+
 .navbar-links div {
   justify-items: space-evenly;
   padding: 0 auto 0 0;

@@ -26,13 +26,13 @@ const Navbar = () => {
             </div>
             <div className={`navbar-links ${isMenuOpen ? 'open' : ''}`}>
                 <div>
-                    <Link to="/">Home</Link>
+                    <Link className='navbar-link' to="/">Home</Link>
                 </div>
                 <div>
-                    <Link to="/resume">Resume</Link>
+                    <Link className='navbar-link'  to="/resume">Resume</Link>
                 </div>
                 <div>
-                    <Link to="/contact">Contact</Link>
+                    <Link className='navbar-link'  to="/contact">Contact</Link>
                 </div>
             </div>
         </nav>
