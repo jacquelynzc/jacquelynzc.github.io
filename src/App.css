@@ -319,12 +319,13 @@ button:hover,
   }
 
   .header {
+    font-size: 1.4rem;
     margin: 0 auto;
-    padding: 70px;
+    margin-top: 6%; 
+    justify-content: center;
+    padding: 50px;
     padding-bottom: 10%;
     padding-top: 7%;
-    margin-top: 4%; 
-    justify-content: center;
   }
   .hamburger-menu {
     display: flex;
