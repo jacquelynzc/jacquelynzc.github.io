@@ -382,12 +382,9 @@ button:hover,
     height: 270px;
     width: 270px;
   }
-  /* .footer {
-    position: absolute;
+  .Home {
+    margin-top: 4%;
   }
-  .footerCon {
-    position: absolute;
-  } */
   .icon {
     max-width: 50px;
   }
