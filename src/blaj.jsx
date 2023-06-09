@@ -1,0 +1,16 @@
+<DevIcon icon="javascript" style={devIconStyle} viewBox="0 0 64 64" />
+<DevIcon icon="python" style={devIconStyle} viewBox="0 0 64 64" />
+<DevIcon icon="git" style={devIconStyle} viewBox="0 0 64 64" />
+<DevIcon icon="postgresql" style={devIconStyle} viewBox="0 0 64 64" />
+<DevIcon icon="npm" style={devIconStyle} viewBox="0 0 64 64" />
+<DevIcon icon="css3" style={devIconStyle} viewBox="0 0 64 64" />
+<DevIcon icon="html5" style={devIconStyle} viewBox="0 0 64 64" />
+<DevIcon icon="django" style={devIconStyle} viewBox="0 0 64 64" />
+<DevIcon icon="ruby" style={devIconStyle} viewBox="0 0 64 64" />
+<DevIcon icon="nodejs" style={devIconStyle} viewBox="0 0 64 64" />
+<DevIcon icon="mongodb" style={devIconStyle} viewBox="0 0 64 64" />
+<DevIcon icon="vim" style={devIconStyle} viewBox="0 0 64 64" />
+<DevIcon icon="react" style={devIconStyle} viewBox="0 0 64 64" />
+<DevIcon icon="heroku" style={devIconStyle} viewBox="0 0 64 64" />
+<DevIcon icon="wordpress" style={devIconStyle} viewBox="0 0 64 64" />
+<DevIcon icon="photoshop" style={devIconStyle} viewBox="0 0 64 64" />
