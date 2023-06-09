@@ -1,17 +1,19 @@
-import React, { useState } from 'react';
-import Navbar from './Navbar.jsx';
-import './App.css';
-import contactQR from './jcQR.png'
-import Footer from './Footer.jsx'
+import React, { useState } from "react";
+import Navbar from "./Navbar.jsx";
+import "./App.css";
+import contactQR from "./jcQR.png";
+import Footer from "./Footer.jsx";
 
 const ContactForm = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleEmailSubmission = () => {
-    const subject = encodeURIComponent('Contact Form Submission from ${name}');
-    const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
+    const subject = encodeURIComponent("Contact Form Submission from ${name}");
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
+    );
     const mailtoLink = `mailto:jaxquelyncaputo@gmail.com?subject=${subject}&body=${body}`;
 
     window.open(mailtoLink);
@@ -20,11 +22,13 @@ const ContactForm = () => {
   return (
     <>
       <Navbar />
-      <div className='qrcode'>
-        <img className='qr' src={contactQR} alt='QR code to save contact'></img>
-        </div>
-        <h3 className="contacth2">Mail Dispatcher</h3>
+      <div className="qrcode">
+        <img className="qr" src={contactQR} alt="QR code to save contact"></img>
+      </div>
+      <h3 className="contacth2">Mail Dispatcher</h3>
+      ‧˚₊꒷꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦꒷₊˚‧
       <div className="contact">
+        <br />
         <div className="contactForm">
           <label htmlFor="name"></label>
           <input
@@ -48,8 +52,8 @@ const ContactForm = () => {
           Submit
         </button>
       </div>
-      <div className='footerCon'>
-      <Footer />
+      <div className="footerCon">
+        <Footer />
       </div>
     </>
   );

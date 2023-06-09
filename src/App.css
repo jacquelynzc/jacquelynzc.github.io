@@ -10,8 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 7%;
-  padding: 9% 0 9% 0;
+  padding: 6.5% 0 12% 0;
 }
 .tools-container h2 {
   justify-content: center;
@@ -69,9 +68,14 @@ button {
   margin: 10px;
   padding: 5px;
 }
+
+h1 {
+  font-size: 1.8rem;
+}
+
 h2 {
   display: flex;
-  font-size: 1.5rem;
+  font-size: 1.65rem;
   font-style: bold;
   justify-content: center;
   margin: 0 auto;
@@ -88,29 +92,21 @@ h3 {
   padding: 3%;
 }
 .navbar {
-  align-items: center;
   background-color: #c8b2ffcf;
   display: flex;
-  left: 0;
+  justify-content: space-between;
   padding: 15px;
+  padding-left: 10px;
   position: fixed;
-  top: 0;
   z-index: 1;
 }
 
-
 .header {
-  align-self: center;
-  display: flex;
   font-family: Roboto;
-  font-size: 0.8em;
-  justify-content: center;
-  margin: 0 auto;
-  margin-top: 7%;
+  margin-top: 3.5%;
   padding-top: 5%;
-  width: 50%;
+  padding-bottom: 5%;
 }
-
 
 @keyframes rainbow-border {
   0% {
@@ -136,30 +132,41 @@ h3 {
   top: 0;
   left: 0;
   width: 100%;
-  height: 3px; 
-  background-image: linear-gradient(90deg, #ffa1fddf, #ffd6acdf, #ffffb3df, #dcffb9df, #bbffdddf, #bbffffdf, #9ccdfddf, #b9b9ffdf, #d7adffdf);
+  height: 3px;
+  background-image: linear-gradient(
+    90deg,
+    #ffa1fddf,
+    #ffd6acdf,
+    #ffffb3df,
+    #dcffb9df,
+    #bbffdddf,
+    #bbffffdf,
+    #9ccdfddf,
+    #b9b9ffdf,
+    #d7adffdf
+  );
   background-size: 200% 100%;
   animation: rainbow-border 8s linear infinite;
 }
 
-  .footer {
-    background-color: #c8b2ffad;
-    border-bottom: 1px solid black;
-    border-top: 1px solid #000000;
-    font-family: Roboto;
-    font-size: 12px;
-    padding: 25px;
-    width: 100%;
-  }
-  .footerCon {
-    background-color: #c8b2ffa1;
-    border-bottom: 1px solid black;
-    border-top: 1px solid #000000;
-    font-family: Roboto;
-    font-size: 12px;
-    padding: 25px;
-    width: 100%;
-  }
+.footer {
+  background-color: #c8b2ffad;
+  border-bottom: 1px solid black;
+  border-top: 1px solid #000000;
+  font-family: Roboto;
+  font-size: 12px;
+  padding: 25px;
+  width: 100%;
+}
+.footerCon {
+  background-color: #c8b2ffa1;
+  border-bottom: 1px solid black;
+  border-top: 1px solid #000000;
+  font-family: Roboto;
+  font-size: 12px;
+  padding: 25px;
+  width: 100%;
+}
 
 .hamburger-menu {
   display: none;
@@ -180,11 +187,12 @@ h3 {
 }
 .navbar-link {
   color: rgb(0, 0, 0);
-  font-size: 1.25rem;
+  font-size: 1.15rem;
+  padding-right: 10px;
 }
 
 .navbar-link:hover {
-  letter-spacing:3px;
+  letter-spacing: 3px;
 }
 
 .navbar-link:active {
@@ -192,8 +200,7 @@ h3 {
 }
 
 .navbar-links div {
-  justify-items: space-evenly;
-  padding: 0 auto 0 0;
+  justify-items: center;
   width: 100%;
 }
 .main-content {
@@ -205,6 +212,7 @@ h3 {
 .circle-container {
   margin-top: 10%;
   position: relative;
+  max-width: 100%;
 }
 .circle-image {
   border: 2px #000 groove;
@@ -213,9 +221,10 @@ h3 {
     rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
     rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
   display: flex;
+  justify-content: center;
+  margin: auto;
   height: 400px;
   overflow: hidden;
-  position: relative;
   transition: 0.3s;
   width: 400px;
 }
@@ -291,20 +300,23 @@ button:hover,
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   color: white;
 }
-@media (max-width: 768px) {
+@media (max-width: 775px) {
   .navbar {
     display: flex;
     height: auto;
     width: 100%;
   }
+
   .header {
     font-size: 0.66rem;
     margin: 0 auto;
     padding: 70px;
-    width: 50%;
+    padding-bottom: 10%;
+    padding-top: 13%;
+    justify-content: center;
+    max-width: 80%;
   }
   .hamburger-menu {
-    align-items: center;
     display: flex;
     margin-right: 20px;
     padding-right: 10px;
@@ -316,6 +328,9 @@ button:hover,
     display: flex;
     flex-direction: row;
   }
+  .navbar-link {
+    font-size: 15px;
+  }
   .navbar-links div:first-child {
     margin-top: 0;
   }
@@ -324,7 +339,8 @@ button:hover,
     justify-content: center;
   }
   h2 {
-    font-size: 1.19rem;
+    font-size: 1.5rem;
+    width: 70%;
   }
   h1 {
     margin-top: 12%;
