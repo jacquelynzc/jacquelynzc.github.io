@@ -1,7 +1,8 @@
+
+
 body {
   background-color: #f0eaff;
   height: 100%;
-  overflow-x: hidden;
 }
 .tools-container {
   align-items: center;
@@ -10,13 +11,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 6.5% 0 12% 0;
-  min-width: 100vw;
+  width: 100%;
+  padding-bottom: 13%;
 
 }
 .tools-container h2 {
   justify-content: center;
   margin-bottom: 5%;
+  margin-top: 5%;
 }
 .progress-container {
   display: grid;
@@ -101,12 +103,15 @@ h3 {
   padding-left: 10px;
   position: fixed;
   z-index: 1;
+  width: 100%;
 }
 
 .header {
   font-family: Roboto;
-  margin-top: 5%;
-  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  margin-top: 9%;
+  padding-top: 7%;
   padding-bottom: 5%;
 }
 
@@ -157,7 +162,7 @@ h3 {
   border-top: 1px solid #000000;
   font-family: Roboto;
   font-size: 12px;
-  padding: 25px;
+  padding: 25px 0 25px 0;
   width: 100%;
 }
 .footerCon {
@@ -166,7 +171,8 @@ h3 {
   border-top: 1px solid #000000;
   font-family: Roboto;
   font-size: 12px;
-  padding: 25px;
+  justify-content: center;
+  padding: 25px 0 25px 0;
   width: 100%;
 }
 
@@ -185,7 +191,7 @@ h3 {
 }
 .navbar-links {
   display: flex;
-  width: 100vw;
+  width: 100%;
 }
 .navbar-link {
   color: rgb(0, 0, 0);
@@ -213,7 +219,6 @@ h3 {
 }
 .circle-container {
   margin-top: 10%;
-  position: relative;
   max-width: 100%;
 }
 .circle-image {
@@ -290,7 +295,7 @@ button {
   justify-content: center;
   margin: 0 auto;
   margin-top: 10%;
-  width: df0px;
+  width: 200px;
 }
 button:hover,
 .social-links a:hover {
@@ -306,21 +311,20 @@ button:hover,
   .navbar {
     display: flex;
     height: auto;
-    width: 100%;
   }
 
   .tools-container {
-    max-width: 90%;
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
   .header {
     margin: 0 auto;
     padding: 70px;
     padding-bottom: 10%;
-    padding-top: 13%;
-    margin-top: 4%;
+    padding-top: 7%;
+    margin-top: 4%; 
     justify-content: center;
-    max-width: 80%;
   }
   .hamburger-menu {
     display: flex;
@@ -343,6 +347,7 @@ button:hover,
   .circle-container {
     align-items: center;
     justify-content: center;
+    margin-top: 12%;
   }
   h2 {
     font-size: 1.5rem;
@@ -357,15 +362,14 @@ button:hover,
   .circle-image {
     height: 280px;
     margin-bottom: 10px;
-    margin-left: 5%;
     width: 280px;
   }
   .social-links {
     display: flex;
-    justify-content: center;
-    padding-bottom: 25px;
     position: absolute;
-    top: 100%;
+    justify-items: center;
+    margin: 0 auto;
+    padding-bottom: 25px;
   }
   .qr {
     display: none;
@@ -377,12 +381,12 @@ button:hover,
     height: 270px;
     width: 270px;
   }
-  .footer {
+  /* .footer {
     position: absolute;
   }
   .footerCon {
     position: absolute;
-  }
+  } */
   .icon {
     max-width: 80px;
   }
