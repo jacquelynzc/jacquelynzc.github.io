@@ -9,11 +9,9 @@ const Tools = (props) => {
 
   return (
     <div className="tools-container">
-      <h2>
-        Programming Languages & Tools
-      </h2>
-      <div className="progress-container">
-        <div>
+      <h2>Programming Languages & Tools</h2>
+      <div className="devIconbox">
+        <div className="progress-container">
           <DevIcon icon="javascript" style={devIconStyle} viewBox="0 0 32 32" />
           <DevIcon icon="python" style={devIconStyle} viewBox="0 0 32 32" />
           <DevIcon icon="git" style={devIconStyle} viewBox="0 0 32 32" />
@@ -23,7 +21,6 @@ const Tools = (props) => {
           <DevIcon icon="html5" style={devIconStyle} viewBox="0 0 32 32" />
           <DevIcon icon="django" style={devIconStyle} viewBox="0 0 32 32" />
           <DevIcon icon="ruby" style={devIconStyle} viewBox="0 0 32 32" />
-  
           <DevIcon icon="nodejs" style={devIconStyle} viewBox="0 0 32 32" />
           <DevIcon icon="mongodb" style={devIconStyle} viewBox="0 0 32 32" />
           <DevIcon icon="vim" style={devIconStyle} viewBox="0 0 32 32" />
