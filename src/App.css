@@ -127,8 +127,6 @@ h3 {
   font-family: Roboto;
   font-size: 12px;
   padding: 10px;
-  bottom: 0;
-  position:calc(100vh - 1px);
 }
 .footerCon {
   bottom: 0;
