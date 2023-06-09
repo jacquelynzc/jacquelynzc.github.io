@@ -11,6 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 6.5% 0 12% 0;
+  min-width: 100vw;
 }
 .tools-container h2 {
   justify-content: center;
@@ -305,6 +306,10 @@ button:hover,
     display: flex;
     height: auto;
     width: 100%;
+  }
+
+  .tools-container {
+    max-width: 90%;
   }
 
   .header {
