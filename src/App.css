@@ -96,6 +96,7 @@ h3 {
   padding: 3%;
 }
 .navbar {
+  top: 0;
   background-color: #c8b2ffcf;
   display: flex;
   justify-content: space-between;
