@@ -389,7 +389,7 @@ button:hover,
     position: absolute;
   } */
   .icon {
-    max-width: 80px;
+    max-width: 50px;
   }
   .tools-container h2 {
     padding-top: 8%;
