@@ -15,13 +15,13 @@ const Navbar = () => {
                 <HamburgerMenu
                     isOpen={isMenuOpen}
                     menuClicked={handleMenuToggle}
-                    width={15}
+                    width={22}
                     height={15}
-                    strokeWidth={1}
+                    strokeWidth={2.4}
                     rotate={0}
-                    color="white"
+                    color="black"
                     borderRadius={0}
-                    animationDuration={0.5}
+                    animationDuration={0.75}
                 />
             </div>
             <div className={`navbar-links ${isMenuOpen ? 'open' : ''}`}>
